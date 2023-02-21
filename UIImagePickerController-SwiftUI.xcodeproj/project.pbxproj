@@ -11,6 +11,7 @@
 		7F18534C29A454C7002EDA7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F18534B29A454C7002EDA7C /* ContentView.swift */; };
 		7F18534E29A454CA002EDA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F18534D29A454CA002EDA7C /* Assets.xcassets */; };
 		7F18535129A454CA002EDA7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F18535029A454CA002EDA7C /* Preview Assets.xcassets */; };
+		7F18535829A45502002EDA7C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F18535729A45502002EDA7C /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7F18534B29A454C7002EDA7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F18534D29A454CA002EDA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F18535029A454CA002EDA7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F18535729A45502002EDA7C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7F18534929A454C7002EDA7C /* UIImagePickerController_SwiftUIApp.swift */,
 				7F18534B29A454C7002EDA7C /* ContentView.swift */,
+				7F18535729A45502002EDA7C /* ImagePicker.swift */,
 				7F18534D29A454CA002EDA7C /* Assets.xcassets */,
 				7F18534F29A454CA002EDA7C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F18535829A45502002EDA7C /* ImagePicker.swift in Sources */,
 				7F18534C29A454C7002EDA7C /* ContentView.swift in Sources */,
 				7F18534A29A454C7002EDA7C /* UIImagePickerController_SwiftUIApp.swift in Sources */,
 			);
