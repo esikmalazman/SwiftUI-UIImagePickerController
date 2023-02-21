@@ -39,10 +39,10 @@ struct ContentView: View {
         .sheet(isPresented: $isShowPhotoLibrary) {
             /// Present the image picker with access to Photo Library. To access Camera, we need to change the sourceType to `.camera` and add the `Privacy Usage Description`
             
-#if targetEnvironment(simulator)
-            ImagePicker(selectedImage: $image, sourceType: .photoLibrary)
-#endif
+#if !targetEnvironment(simulator)
             ImagePicker(selectedImage: $image, sourceType: .camera)
+#endif
+            ImagePicker(selectedImage: $image, sourceType: .photoLibrary)
         }
     }
 }
